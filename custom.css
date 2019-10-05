@@ -1,0 +1,23 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+ main {
+      flex: 1 0 auto;
+}
+
+.blue-gray.darken-5 {
+    background-color: #1d262b !important;
+}
+.middle {
+    vertical-align: middle;
+}
+.top {
+    vertical-align: top;
+}
+a.medium-rare-steak {
+	font-weight: 500;
+}
