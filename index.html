@@ -1,57 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="materialize.css">
-        <title>shinthebin</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="custom.css">
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <nav class="blue-grey darken-4" role="navigation">
-                <div class="nav-wrapper container">
-                    <a id="logo-container" href="#" class="brand-logo medium-rare-steak">Sean Maizel</a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="https://www.shinthebin.tech" class="waves-effect">HOME</a></li>
-                        <li><a href="https://french.shinthebin.tech" class="waves-effect">FRENCH</a></li>
-                        <li><a href="/js" class="waves-effect">JS</a></li>
-                    </ul>
-                    <a href="#" data-target="mobile-links" class="sidenav-trigger"><i class="material-icons">child_care</i></a>
-                </div>
-            </nav>
-            <ul class="sidenav" id="mobile-links">
-                <li><a id="logo-container" href="#" class="brand-logo">Sean Maizel</a></li>
-                <li><a href="https://www.shinthebin.tech" class="waves-effect">HOME</a></li>
-                <li><a href="https://french.shinthebin.tech" class="waves-effect">FRENCH</a></li>
-                <li><a href="/js" class="waves-effect">JS</a></li>
-            </ul>
-        </header>
-        <main>
-            <div class="section no-pad-bot" id="index-banner">
-                <div class="container">
-                    <h2 class="header center black-text">This is a WIP (<b>W</b>ork <b>I</b>n <b>P</b>rogress) webpage</h1>
-                    <h3 class="header center light">Please check back at the Heat Death of the Universe</h3>
-                </div>
-            </div>
-        </main>
-        <footer class="page-footer grey darken-4">
-            <div class="container section no-pad-top">
-                 <div class="footer-copyright">
-                     <span class="center">Made by Sean Maizel</span>
-                     <span class="right">Any help questions should go to <a href="mailto:support@shinthebin.tech">support@shinthebin.tech</a></span>
-                 </div>
-            </div>
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="materialize.js"></script>
-        <script>
-            $(document).ready(function(){
-                $('.sidenav').sidenav();
-            })
-        </script>
-    </body>
+  <head>
+    <title>shinthebin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="materialize-colors.css">
+    <link rel="icon" href="/corndog.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light amber darken-1">
+      <a class="navbar-brand" href="#">shinthebin</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://french.shinthebin.tech">French</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/js">JS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br />
+    <br />
+    <div class="container">
+      <h1 class="text-center">This is a WIP (<b>W</b>ork <b>I</b>n <b>P</b>rogress) webpage</h1>
+      <h3 class="text-center">Please check back when I update this website</h3>
+      <br />
+      <div class="progress">
+        <div class="progress-bar amber black-text" role="progressbar" style="width: 4.2069%" aria-valuenow="4.2069" aria-valuemin="0" aria-valuemax="100">x!V-</div>
+      </div>
+      <h4 class="text-center">This website is (!UN/known>% done!</h4>
+    </div>
+    <footer class="modal-footer amber darken-2">
+      For any support, please contact <a href="mailto:support@shinthebin.tech">support@shinthebin.tech</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
