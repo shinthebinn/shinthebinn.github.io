@@ -8,13 +8,16 @@ nav {
   font-family: 'Ubuntu', sans-serif;
 }
 
-
+form {
+  text-align: center;
+}
 
 footer {
   position: fixed;
   height: 50px;
   background-color: red;
   bottom: 0px;
+/*code: 69420*/
   left: 0px;
   right: 0px;
   margin-bottom: 0px;
